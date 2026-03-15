@@ -1,0 +1,582 @@
+{
+  "authors": "Telegram & Twitter/X",
+  "contact": {
+    "mail": "willybrauner@gmail.com"
+  },
+  "title": "Oggy! - Illustrated and animated story for Mahé",
+  "subtitle": "Illustrated and animated story for Mahé",
+  "dictionary": {
+    "enterButtonLabel": "Let's go!",
+    "aboutButtonLabel": "About",
+    "loaderDone": [
+      "Let's go!",
+      "Oh yeah!",
+      "Ready?",
+      "Hello!"
+    ],
+    "legals": "legals mentions"
+  },
+  "landscapeScreen": {
+    "title": "Oh noooooooo!",
+    "text": "Turn your phone into portrait mode."
+  },
+  "menu": {
+    "tuto": "Click on colors to navigate!"
+  },
+  "about": {
+    "description": "A story imagined, illustrated, and developed by",
+    "contacts": [
+      {
+        "name": "Twitter/X",
+        "websiteLink": "https://x.com/OggyETHX"
+      },
+      {
+        "name": "Telegram",
+        "websiteLink": "https://t.me/oggyeth_portal"
+      }
+    ],
+    "credits": [
+      {
+        "title": "Illustration:",
+        "description": " Twitter/X",
+        "websiteLink": "https://x.com/OggyETHX"
+      },
+      {
+        "title": "Development & design:",
+        "description": "Telegram",
+        "websiteLink": "https://t.me/oggyeth_portal"
+      },
+      {
+        "title": "Writing:",
+        "description": "Twitter/X & Telegram"
+      },
+      {
+        "title": "English translation:",
+        "description": "Krista Uy"
+      }
+    ],
+    "remerciements": "Big thanks to Camille, Mathilde, Danièle & Mahé",
+    "copyright": "Liens & Brauner © 2024",
+    "rights": "All rights reserved."
+  },
+  "langs": [
+    "fr",
+    "en"
+  ],
+  "defaultLang": "fr",
+  "currentLang": "en",
+  "routes": [
+    {
+      "path": "/en/",
+      "name": "home",
+      "props": {
+        "data": {
+          "matter": {
+            "title": "home",
+            "subtitle": "Histoire illustrée et animée pour Mahé",
+            "backgroundColor": "#c1deff",
+            "interfaceColor": "#000000",
+            "frames": {
+              "ombre": {
+                "path": "/content/01.home/textures/home-ombre.webp"
+              },
+              "mouvement": {
+                "path": "/content/01.home/textures/home-mouvement.webp"
+              },
+              "ballon": {
+                "path": "/content/01.home/textures/4-home-ballon.webp"
+              },
+              "oggy": {
+                "path": "/content/01.home/textures/3-home-oggy.webp"
+              },
+              "exclamation": {
+                "path": "/content/01.home/textures/home-exclamation.webp",
+                "position": {
+                  "x": -0.03,
+                  "y": 0
+                }
+              },
+              "mahe1": {
+                "path": "/content/01.home/textures/home-mahe-1.webp"
+              },
+              "mahe2": {
+                "path": "/content/01.home/textures/home-mahe-2.webp"
+              }
+            }
+          },
+          "content": null
+        },
+        "lang": "en",
+        "alternateLangs": {
+          "fr": "/",
+          "en": "/en/"
+        },
+        "cache": "<div class=\"Home\" style=\"--interface-color:#000000;--background-color:#c1deff;\"><span class=\"Home_clickZone\"></span><div class=\"Home_container\"><div class=\"Home_wrapper\"><div class=\"Home_enterButtonWrapper\"><a class=\"Home_enterButton link\" href=\"/en/scenes/wakeup\">Let's go!</a></div><div class=\"Home_subtitle\">Illustrated and animated story for Mahé</div></div><div class=\"Home_aboutButtonWrapper\"><button aria-label=\"about-link\" class=\"AboutButton Home_aboutButton\" data-pr=\"true\"><span class=\"AboutButton_label\">About</span></button></div><div class=\"LangSwitcher Home_langSwitcher\" data-pr=\"true\"><div class=\"LangSwitcher_wrapper\"><ul class=\"LangSwitcher_list\"><li class=\"LangSwitcher_item\"><a href=\"/\" class=\"LangSwitcher_link\" data-lang=\"fr\"><span class=\"LangSwitcher_code\">fr</span></a></li><li class=\"LangSwitcher_item\"><span class=\"LangSwitcher_sep\">.</span><a href=\"/en/\" class=\"LangSwitcher_link LangSwitcher_link-active\" data-lang=\"en\"><span class=\"LangSwitcher_code\">en</span></a></li></ul></div></div></div></div>",
+        "meta": {
+          "description": ""
+        }
+      }
+    },
+    {
+      "path": "/en/scenes/wakeup",
+      "name": "wakeup",
+      "props": {
+        "data": {
+          "matter": {
+            "backgroundColor": "#505B96",
+            "floorBackgroundColor": "#4352A6",
+            "interfaceColor": "#FFFFFF",
+            "frames": {
+              "tapis": {
+                "path": "/content/02.scenes/wakeup/textures/10-wake-up-tapis.webp"
+              },
+              "fumee2": {
+                "path": "/content/02.scenes/wakeup/textures/7-wake-up-fumee-2.webp"
+              },
+              "fumee1": {
+                "path": "/content/02.scenes/wakeup/textures/6-wake-up-fumee-1.webp"
+              },
+              "halo2": {
+                "path": "/content/02.scenes/wakeup/textures/5-wake-up-halo-2.webp"
+              },
+              "halo1": {
+                "path": "/content/02.scenes/wakeup/textures/4-wake-up-halo-1.webp"
+              },
+              "toysMobile": {
+                "path": "/content/02.scenes/wakeup/textures/9-wake-up-mobilefit.webp",
+                "parentPosition": {
+                  "x": -0.06,
+                  "y": 0.45,
+                  "z": 0.001
+                }
+              },
+              "mahe2": {
+                "path": "/content/02.scenes/wakeup/textures/3-wake-up-mahe-2.webp"
+              },
+              "mahe1": {
+                "path": "/content/02.scenes/wakeup/textures/3-wake-up-mahe-1.webp"
+              },
+              "oggy": {
+                "path": "/content/02.scenes/wakeup/textures/2-wake-up-oggy.webp"
+              },
+              "typo": {
+                "path": "/content/02.scenes/wakeup/textures/1-wake-up-typo-old.webp",
+                "ratio": 1.5
+              }
+            },
+            "title": "wake up",
+            "text": "Since he came home, I haven't slept through the night…"
+          },
+          "content": null
+        },
+        "lang": "en",
+        "alternateLangs": {
+          "fr": "/scenes/wakeup",
+          "en": "/en/scenes/wakeup"
+        },
+        "cache": "<div class=\"Wakeup\"><div class=\"Floor Wakeup_floor\" style=\"--floor-background-color:#4352A6;\"><svg class=\"Floor_floorSvg\" viewBox=\"0 0 1440 325\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path class=\"Floor_floorPath\" d=\"M0 66.3585V325H1440V49.814C1440 49.814 897 0.000205302 720.5 0C544 -0.000205301 0 66.3585 0 66.3585Z\"></path></svg></div><div class=\"IlluText Wakeup_illuText\"><div class=\"IlluText_wrapper\"><div class=\"SplitText IlluText_splitText\"><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">S</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">c</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">c</span><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">m</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">m</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">,</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">I</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">v</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">'</span><span class=\"SplitText_letter letter\">t</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">p</span><span class=\"SplitText_letter letter\">t</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">u</span><span class=\"SplitText_letter letter\">g</span><span class=\"SplitText_letter letter\">h</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">g</span><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">…</span></span></div></div></div></div>",
+        "meta": {
+          "description": ""
+        }
+      }
+    },
+    {
+      "path": "/en/scenes/meal",
+      "name": "meal",
+      "props": {
+        "data": {
+          "matter": {
+            "backgroundColor": "#F8F3BC",
+            "floorBackgroundColor": "#EADE56",
+            "interfaceColor": "#000000",
+            "frames": {
+              "lampe": {
+                "path": "/content/02.scenes/meal/textures/meal-lampe.webp",
+                "parentPosition": {
+                  "x": -0.1,
+                  "y": 0.73
+                },
+                "scale": {
+                  "x": 0.6
+                },
+                "ratio": 0.33
+              },
+              "taches": {
+                "path": "/content/02.scenes/meal/textures/meal-taches-sol.webp"
+              },
+              "frigo": {
+                "path": "/content/02.scenes/meal/textures/meal-frigo.webp"
+              },
+              "tachesFrigo": {
+                "path": "/content/02.scenes/meal/textures/meal-taches-frigo.webp"
+              },
+              "magnets": {
+                "path": "/content/02.scenes/meal/textures/meal-magnets.webp"
+              },
+              "nuage": {
+                "path": "/content/02.scenes/meal/textures/meal-nuage.webp"
+              },
+              "boite": {
+                "path": "/content/02.scenes/meal/textures/meal-boite.webp"
+              },
+              "oggy": {
+                "path": "/content/02.scenes/meal/textures/meal-oggy.webp"
+              },
+              "mahe": {
+                "path": "/content/02.scenes/meal/textures/meal-mahe-chaise.webp"
+              }
+            },
+            "title": "meal",
+            "text": "We have been through a lot…"
+          },
+          "content": null
+        },
+        "lang": "en",
+        "alternateLangs": {
+          "fr": "/scenes/meal",
+          "en": "/en/scenes/meal"
+        },
+        "cache": "<div class=\"Meal\"><div class=\"Floor Meal_floor\" style=\"--floor-background-color:#EADE56;\"><svg class=\"Floor_floorSvg\" viewBox=\"0 0 1440 325\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M-71.4996 95.0242C-117.782 142.828 -52.0059 490 -52.0059 490L1523.58 426.267C1523.58 426.267 1598.77 -14.6672 1523.58 51.4253C1448.4 117.518 1220.22 -92.1402 742.328 51.4253C264.437 194.991 -25.2173 47.2204 -71.4996 95.0242Z\"></path></svg></div><div class=\"IlluText Meal_illuText\"><div class=\"IlluText_wrapper\"><div class=\"SplitText IlluText_splitText\"><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">W</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">v</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">b</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">n</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">u</span><span class=\"SplitText_letter letter\">g</span><span class=\"SplitText_letter letter\">h</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">a</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">…</span></span></div></div></div></div>",
+        "meta": {
+          "description": ""
+        }
+      }
+    },
+    {
+      "path": "/en/scenes/bath",
+      "name": "bath",
+      "props": {
+        "data": {
+          "matter": {
+            "backgroundColor": "#6992BF",
+            "floorBackgroundColor": "#33669b",
+            "interfaceColor": "#FFFFFF",
+            "frames": {
+              "tapis": {
+                "path": "/content/02.scenes/bath/textures/12-bath-tapis.webp"
+              },
+              "vapeur": {
+                "path": "/content/02.scenes/bath/textures/11-bath-fumee.webp"
+              },
+              "baignoire": {
+                "path": "/content/02.scenes/bath/textures/10-bath-baignoire.webp"
+              },
+              "tabouret": {
+                "path": "/content/02.scenes/bath/textures/9-bath-tabouret.webp"
+              },
+              "echelle": {
+                "path": "/content/02.scenes/bath/textures/8-bath-echelle.webp"
+              },
+              "oggy": {
+                "path": "/content/02.scenes/bath/textures/7-bath-oggy.webp"
+              },
+              "mahe1": {
+                "path": "/content/02.scenes/bath/textures/6-bath-mahe-1.webp"
+              },
+              "mahe2": {
+                "path": "/content/02.scenes/bath/textures/6-bath-mahe-2.webp"
+              },
+              "mousse": {
+                "path": "/content/02.scenes/bath/textures/5-bath-mousse.webp"
+              },
+              "mouvement": {
+                "path": "/content/02.scenes/bath/textures/4-bath-mouvement.webp"
+              },
+              "nuage": {
+                "path": "/content/02.scenes/bath/textures/3-bath-nuages.webp"
+              },
+              "typo": {
+                "path": "/content/02.scenes/bath/textures/1-bath-typo-oggy.webp"
+              }
+            },
+            "title": "bath",
+            "text": "…of slippery situations."
+          },
+          "content": null
+        },
+        "lang": "en",
+        "alternateLangs": {
+          "fr": "/scenes/bath",
+          "en": "/en/scenes/bath"
+        },
+        "cache": "<div class=\"Bath\"><div class=\"Floor Bath_floor\" style=\"--floor-background-color:#33669b;\"><svg class=\"Floor_floorSvg\" viewBox=\"0 0 1440 325\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5.14984e-05 16.8919C-43 71.5 5.14984e-05 342 5.14984e-05 342H1452.74C1452.74 342 1541.24 96.047 1432 36.3984C1322.76 -23.2501 870.933 60.0002 692.5 60C514.067 59.9998 43.0001 -37.7161 5.14984e-05 16.8919Z\"></path></svg></div><div class=\"IlluText Bath_illuText\"><div class=\"IlluText_wrapper\"><div class=\"SplitText IlluText_splitText\"><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">…</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">f</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">p</span><span class=\"SplitText_letter letter\">p</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">y</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">u</span><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">.</span></span></div></div></div></div>",
+        "meta": {
+          "description": ""
+        }
+      }
+    },
+    {
+      "path": "/en/scenes/laugh",
+      "name": "laugh",
+      "props": {
+        "data": {
+          "matter": {
+            "backgroundColor": "#e8fbea",
+            "floorBackgroundColor": "#B6E6CA",
+            "interfaceColor": "#000000",
+            "frames": {
+              "tapis": {
+                "path": "/content/02.scenes/laugh/textures/laugh-tapis.webp"
+              },
+              "chaisePeluche": {
+                "path": "/content/02.scenes/laugh/textures/laugh-chaise-peluche.webp"
+              },
+              "tableau": {
+                "path": "/content/02.scenes/laugh/textures/laugh-tableau.webp",
+                "parentPosition": {
+                  "x": 0.2,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "oggyOmbre1": {
+                "path": "/content/02.scenes/laugh/textures/laugh-ombre-1.webp"
+              },
+              "oggyOmbre2": {
+                "path": "/content/02.scenes/laugh/textures/laugh-ombre-2.webp"
+              },
+              "oggy": {
+                "path": "/content/02.scenes/laugh/textures/laugh-oggy.webp"
+              },
+              "jouet": {
+                "path": "/content/02.scenes/laugh/textures/laugh-jouet.webp"
+              },
+              "mahe": {
+                "path": "/content/02.scenes/laugh/textures/laugh-mahe.webp"
+              },
+              "balle2": {
+                "path": "/content/02.scenes/laugh/textures/laugh-balle-2.webp",
+                "parentPosition": {
+                  "x": -0.46,
+                  "y": -0.24,
+                  "z": 0.005
+                }
+              }
+            },
+            "title": "laugh",
+            "text": "But when it's my turn, my revenge is terrible!"
+          },
+          "content": null
+        },
+        "lang": "en",
+        "alternateLangs": {
+          "fr": "/scenes/laugh",
+          "en": "/en/scenes/laugh"
+        },
+        "cache": "<div class=\"Laugh\"><div class=\"Floor Laugh_floor\" style=\"--floor-background-color:#B6E6CA;\"><svg class=\"Floor_floorSvg\" viewBox=\"0 0 1440 325\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M-61.2654 135.897C-71.9183 -100.603 -61.2654 557.897 -61.2654 557.897H1441C1441 557.897 1505 282.409 1466.99 135.897C1428.98 -10.6142 1377.89 141.446 1020.36 20.22C662.832 -101.006 -50.6125 372.397 -61.2654 135.897Z\"></path></svg></div><div class=\"IlluText Laugh_illuText\"><div class=\"IlluText_wrapper\"><div class=\"SplitText IlluText_splitText\"><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">B</span><span class=\"SplitText_letter letter\">u</span><span class=\"SplitText_letter letter\">t</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">w</span><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">n</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">'</span><span class=\"SplitText_letter letter\">s</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">m</span><span class=\"SplitText_letter letter\">y</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">u</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">,</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">m</span><span class=\"SplitText_letter letter\">y</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">v</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">g</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">s</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">b</span><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">!</span></span></div></div></div></div>",
+        "meta": {
+          "description": ""
+        }
+      }
+    },
+    {
+      "path": "/en/scenes/concert",
+      "name": "concert",
+      "props": {
+        "data": {
+          "matter": {
+            "backgroundColor": "#0d334d",
+            "floorBackgroundColor": "#072238",
+            "interfaceColor": "#ffffff",
+            "frames": {
+              "ampli01": {
+                "path": "/content/02.scenes/concert/textures/concert-ampli-01.webp",
+                "scale": {
+                  "x": 1.16
+                }
+              },
+              "ampli02": {
+                "path": "/content/02.scenes/concert/textures/concert-ampli-02.webp",
+                "scale": {
+                  "x": 1.16
+                }
+              },
+              "scene": {
+                "path": "/content/02.scenes/concert/textures/concert-scene.webp"
+              },
+              "lapin": {
+                "path": "/content/02.scenes/concert/textures/concert-lapin.webp"
+              },
+              "spot01": {
+                "path": "/content/02.scenes/concert/textures/concert-spot.webp",
+                "ratio": 0.5,
+                "position": {
+                  "y": 0.5,
+                  "x": -0.3
+                }
+              },
+              "spot02": {
+                "path": "/content/02.scenes/concert/textures/concert-spot.webp",
+                "ratio": 0.5,
+                "position": {
+                  "y": 0.5,
+                  "x": 0.3
+                }
+              },
+              "oggy": {
+                "path": "/content/02.scenes/concert/textures/concert-oggy.webp"
+              },
+              "mahe": {
+                "path": "/content/02.scenes/concert/textures/concert-mahe.webp"
+              },
+              "cable": {
+                "path": "/content/02.scenes/concert/textures/concert-cable.webp"
+              },
+              "croco": {
+                "path": "/content/02.scenes/concert/textures/concert-croco.webp"
+              }
+            },
+            "title": "concert",
+            "text": "Despite it all, there is no other complicity like ours."
+          },
+          "content": null
+        },
+        "lang": "en",
+        "alternateLangs": {
+          "fr": "/scenes/concert",
+          "en": "/en/scenes/concert"
+        },
+        "cache": "<div class=\"Concert\"><div class=\"Floor Concert_floor\" style=\"--floor-background-color:#072238;\"><svg class=\"Floor_floorSvg\" viewBox=\"0 0 1440 325\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M-20.9999 72C-67.2822 119.804 -0.500057 318.5 -0.500057 318.5H1439.5C1439.5 318.5 1462.5 166 1440 107C1417.5 48 1152 -0.000608086 684.001 -0.000549316C216 -0.000490546 25.2825 24.1962 -20.9999 72Z\"></path></svg></div><div class=\"IlluText Concert_illuText\"><div class=\"IlluText_wrapper\"><div class=\"SplitText IlluText_splitText\"><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">D</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">p</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">t</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">,</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">s</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">o</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">r</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">c</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">m</span><span class=\"SplitText_letter letter\">p</span><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">c</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">y</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">k</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">u</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">.</span></span></div></div></div></div>",
+        "meta": {
+          "description": ""
+        }
+      }
+    },
+    {
+      "path": "/en/scenes/mamma",
+      "name": "mamma",
+      "props": {
+        "data": {
+          "matter": {
+            "backgroundColor": "#69BFA0",
+            "floorBackgroundColor": "#1A7B6C",
+            "interfaceColor": "#ffffff",
+            "frames": {
+              "porte": {
+                "path": "/content/02.scenes/mamma/textures/mamma-porte.webp"
+              },
+              "halo": {
+                "path": "/content/02.scenes/mamma/textures/mamma-halo.webp"
+              },
+              "tapis": {
+                "path": "/content/02.scenes/mamma/textures/mamma-tapis.webp"
+              },
+              "mobileMaj": {
+                "path": "/content/02.scenes/mamma/textures/mamma-mobile-maj.webp"
+              },
+              "mahe1": {
+                "path": "/content/02.scenes/mamma/textures/mamma-mahe-1.webp"
+              },
+              "mahe2": {
+                "path": "/content/02.scenes/mamma/textures/mamma-mahe-2.webp"
+              },
+              "lit": {
+                "path": "/content/02.scenes/mamma/textures/mamma-lit.webp"
+              },
+              "oggy1": {
+                "path": "/content/02.scenes/mamma/textures/mamma-oggy-1.webp"
+              },
+              "oggy2": {
+                "path": "/content/02.scenes/mamma/textures/mamma-oggy-2.webp"
+              }
+            },
+            "title": "mamma",
+            "text": "With time, however, my name echoes less and less."
+          },
+          "content": null
+        },
+        "lang": "en",
+        "alternateLangs": {
+          "fr": "/scenes/mamma",
+          "en": "/en/scenes/mamma"
+        },
+        "cache": "<div class=\"Mamma\"><div class=\"Floor Mamma_floor\" style=\"--floor-background-color:#1A7B6C;\"><svg class=\"Floor_floorSvg\" viewBox=\"0 0 1440 325\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M166.5 130.5C-270.5 71.0001 -49.9999 520.499 -49.9999 520.499H1514.5C1629 164 1352 39.4999 1084 2.99983C714 -27 603.5 190 166.5 130.5Z\" fill=\"#1A7B6C\"></path></svg></div><div class=\"IlluText Mamma_illuText\"><div class=\"IlluText_wrapper\"><div class=\"SplitText IlluText_splitText\"><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">W</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">h</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">m</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">,</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">w</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">v</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">,</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">m</span><span class=\"SplitText_letter letter\">y</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">m</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">c</span><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">s</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">s</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">d</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">.</span></span></div></div></div></div>",
+        "meta": {
+          "description": ""
+        }
+      }
+    },
+    {
+      "path": "/en/scenes/bigboy",
+      "name": "bigboy",
+      "props": {
+        "data": {
+          "matter": {
+            "floorBackgroundColor": "#da765f",
+            "backgroundColor": "#ffc3b6",
+            "interfaceColor": "#000000",
+            "frames": {
+              "arbre04": {
+                "path": "/content/02.scenes/bigboy/textures/7-bigboy-arbre-04.webp"
+              },
+              "arbre01": {
+                "path": "/content/02.scenes/bigboy/textures/3-bigboy-arbre-01.webp"
+              },
+              "jeu02": {
+                "path": "/content/02.scenes/bigboy/textures/5-bigboy-jeu-02.webp"
+              },
+              "enfant": {
+                "path": "/content/02.scenes/bigboy/textures/10-bigboy-enfant.webp"
+              },
+              "mahe": {
+                "path": "/content/02.scenes/bigboy/textures/9-bigboy-mahe.webp"
+              },
+              "jeu01": {
+                "path": "/content/02.scenes/bigboy/textures/2-bigboy-jeu-01.webp"
+              },
+              "oggy": {
+                "path": "/content/02.scenes/bigboy/textures/8-bigboy-oggy.webp"
+              }
+            },
+            "title": "bigboy",
+            "text": "Step by step he discovers the world, but I'm never far away."
+          },
+          "content": null
+        },
+        "lang": "en",
+        "alternateLangs": {
+          "fr": "/scenes/bigboy",
+          "en": "/en/scenes/bigboy"
+        },
+        "cache": "<div class=\"Bigboy\" style=\"--floor-background-color:#da765f;\"><div class=\"Floor Bigboy_floor\" style=\"--floor-background-color:#da765f;\"><svg class=\"Floor_floorSvg\" viewBox=\"0 0 1440 325\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M458 325.5C298 337 27.6991 198.089 -41.5002 272.5C-145.662 384.507 -11.4997 755 -11.4997 755H1444.5C1444.5 755 1498.68 53.551 1475 14C1451.32 -25.5509 1199.5 26.979 956 131.5C712.5 236.021 618 314 458 325.5Z\"></path></svg></div><div class=\"IlluText Bigboy_illuText\"><div class=\"IlluText_wrapper\"><div class=\"SplitText IlluText_splitText\"><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">S</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">p</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">b</span><span class=\"SplitText_letter letter\">y</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">p</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">d</span><span class=\"SplitText_letter letter\">i</span><span class=\"SplitText_letter letter\">s</span><span class=\"SplitText_letter letter\">c</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">v</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">s</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">t</span><span class=\"SplitText_letter letter\">h</span><span class=\"SplitText_letter letter\">e</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">w</span><span class=\"SplitText_letter letter\">o</span><span class=\"SplitText_letter letter\">r</span><span class=\"SplitText_letter letter\">l</span><span class=\"SplitText_letter letter\">d</span><span class=\"SplitText_letter letter\">,</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">b</span><span class=\"SplitText_letter letter\">u</span><span class=\"SplitText_letter letter\">t</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">I</span><span class=\"SplitText_letter letter\">'</span><span class=\"SplitText_letter letter\">m</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">n</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">v</span><span class=\"SplitText_letter letter\">e</span><span class=\"SplitText_letter letter\">r</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">f</span><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">r</span></span><span class=\"SplitText_word word\"><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">w</span><span class=\"SplitText_letter letter\">a</span><span class=\"SplitText_letter letter\">y</span><span class=\"SplitText_letter letter\">.</span></span></div></div></div></div>",
+        "meta": {
+          "description": ""
+        }
+      }
+    },
+    {
+      "path": "/en/again",
+      "name": "again",
+      "props": {
+        "data": {
+          "matter": {
+            "backgroundColor": "#c1deff",
+            "interfaceColor": "#000000",
+            "frames": {
+              "ombre": {
+                "path": "/content/02.scenes/again/textures/encore-ombre.webp"
+              },
+              "maheOggy": {
+                "path": "/content/02.scenes/again/textures/encore-mahe-oggy.webp"
+              },
+              "mouvement": {
+                "path": "/content/02.scenes/again/textures/encore-mouvement.webp"
+              }
+            },
+            "title": "Again!"
+          },
+          "content": null
+        },
+        "lang": "en",
+        "alternateLangs": {
+          "fr": "/again",
+          "en": "/en/again"
+        },
+        "cache": "<div class=\"Again\" style=\"--background-color:#c1deff;--interface-color:#000000;\"><div class=\"Again_titleWrapper\"><a class=\"Again_link link\" href=\"/en/\"><h1 class=\"Again_title\">Again!</h1></a></div><div class=\"Again_content\"><div class=\"Again_contentInner\"><div class=\"Again_contactList\"><div class=\"Again_contactItem\"><a class=\"Again_contactLink\" href=\"https://x.com/OggyETHX\" target=\"_blank\">Twitter/X</a></div><div class=\"Again_contactItem\"><a class=\"Again_contactLink\" href=\"https://t.me/oggyeth_portal\" target=\"_blank\">Telegram</a></div></div></div></div><a class=\"Again_arrowWrapper link\" href=\"/en/\"><button class=\"Arrow Again_arrow Arrow-prev\" aria-label=\"previous scene\"><svg class=\"Arrow_svg\" width=\"100\" height=\"60\" viewBox=\"0 0 100 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M36.4246 0.000299775C38.5859 0.000300152 40.6201 1.33124 42.5271 3.99313V5.89447C42.5271 9.57041 34.5811 16.2885 18.6892 26.0488L17.9264 26.6192V28.5205C18.8164 28.5205 27.5251 35.2386 44.0527 48.6748C46.214 49.6888 47.2946 51.4001 47.2946 53.8084C47.2946 56.09 45.4512 57.928 41.7643 59.3223C40.1115 59.3223 30.9578 52.3507 14.3031 38.4075C5.53077 34.4781 1.14461 32.1331 1.14461 31.3725C0.381796 31.3725 0.000390694 30.1683 0.000391116 27.76C0.000391472 25.7319 8.96341 19.0138 26.8895 7.60568C31.7206 2.78894 34.899 0.253813 36.4246 0.000299775Z\" fill=\"black\"></path></svg><span class=\"Arrow_label\">previous scene</span></button></a></div>",
+        "meta": {
+          "description": ""
+        }
+      }
+    }
+  ]
+}
