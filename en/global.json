@@ -28,23 +28,23 @@
     "contacts": [
       {
         "name": "Twitter/X",
-        "websiteLink": "https://x.com/OggyETHX"
+        "websiteLink": "https://x.com/Oggycoin_X"
       },
       {
         "name": "Telegram",
-        "websiteLink": "https://t.me/oggyeth_portal"
+        "websiteLink": "https://t.me/Oggycoin_chat"
       }
     ],
     "credits": [
       {
         "title": "Illustration:",
         "description": " Twitter/X",
-        "websiteLink": "https://x.com/OggyETHX"
+        "websiteLink": "https://x.com/Oggycoin_X"
       },
       {
         "title": "Development & design:",
         "description": "Telegram",
-        "websiteLink": "https://t.me/oggyeth_portal"
+        "websiteLink": "https://t.me/Oggycoin_chat"
       },
       {
         "title": "Writing:",
@@ -572,7 +572,7 @@
           "fr": "/again",
           "en": "/en/again"
         },
-        "cache": "<div class=\"Again\" style=\"--background-color:#c1deff;--interface-color:#000000;\"><div class=\"Again_titleWrapper\"><a class=\"Again_link link\" href=\"/en/\"><h1 class=\"Again_title\">Again!</h1></a></div><div class=\"Again_content\"><div class=\"Again_contentInner\"><div class=\"Again_contactList\"><div class=\"Again_contactItem\"><a class=\"Again_contactLink\" href=\"https://x.com/OggyETHX\" target=\"_blank\">Twitter/X</a></div><div class=\"Again_contactItem\"><a class=\"Again_contactLink\" href=\"https://t.me/oggyeth_portal\" target=\"_blank\">Telegram</a></div></div></div></div><a class=\"Again_arrowWrapper link\" href=\"/en/\"><button class=\"Arrow Again_arrow Arrow-prev\" aria-label=\"previous scene\"><svg class=\"Arrow_svg\" width=\"100\" height=\"60\" viewBox=\"0 0 100 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M36.4246 0.000299775C38.5859 0.000300152 40.6201 1.33124 42.5271 3.99313V5.89447C42.5271 9.57041 34.5811 16.2885 18.6892 26.0488L17.9264 26.6192V28.5205C18.8164 28.5205 27.5251 35.2386 44.0527 48.6748C46.214 49.6888 47.2946 51.4001 47.2946 53.8084C47.2946 56.09 45.4512 57.928 41.7643 59.3223C40.1115 59.3223 30.9578 52.3507 14.3031 38.4075C5.53077 34.4781 1.14461 32.1331 1.14461 31.3725C0.381796 31.3725 0.000390694 30.1683 0.000391116 27.76C0.000391472 25.7319 8.96341 19.0138 26.8895 7.60568C31.7206 2.78894 34.899 0.253813 36.4246 0.000299775Z\" fill=\"black\"></path></svg><span class=\"Arrow_label\">previous scene</span></button></a></div>",
+        "cache": "<div class=\"Again\" style=\"--background-color:#c1deff;--interface-color:#000000;\"><div class=\"Again_titleWrapper\"><a class=\"Again_link link\" href=\"/en/\"><h1 class=\"Again_title\">Again!</h1></a></div><div class=\"Again_content\"><div class=\"Again_contentInner\"><div class=\"Again_contactList\"><div class=\"Again_contactItem\"><a class=\"Again_contactLink\" href=\"https://x.com/Oggycoin_X\" target=\"_blank\">Twitter/X</a></div><div class=\"Again_contactItem\"><a class=\"Again_contactLink\" href=\"https://t.me/Oggycoin_chat\" target=\"_blank\">Telegram</a></div></div></div></div><a class=\"Again_arrowWrapper link\" href=\"/en/\"><button class=\"Arrow Again_arrow Arrow-prev\" aria-label=\"previous scene\"><svg class=\"Arrow_svg\" width=\"100\" height=\"60\" viewBox=\"0 0 100 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M36.4246 0.000299775C38.5859 0.000300152 40.6201 1.33124 42.5271 3.99313V5.89447C42.5271 9.57041 34.5811 16.2885 18.6892 26.0488L17.9264 26.6192V28.5205C18.8164 28.5205 27.5251 35.2386 44.0527 48.6748C46.214 49.6888 47.2946 51.4001 47.2946 53.8084C47.2946 56.09 45.4512 57.928 41.7643 59.3223C40.1115 59.3223 30.9578 52.3507 14.3031 38.4075C5.53077 34.4781 1.14461 32.1331 1.14461 31.3725C0.381796 31.3725 0.000390694 30.1683 0.000391116 27.76C0.000391472 25.7319 8.96341 19.0138 26.8895 7.60568C31.7206 2.78894 34.899 0.253813 36.4246 0.000299775Z\" fill=\"black\"></path></svg><span class=\"Arrow_label\">previous scene</span></button></a></div>",
         "meta": {
           "description": ""
         }
